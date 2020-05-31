@@ -88,7 +88,7 @@ class Header extends React.Component {
           </Sidebar>
 
                     <div className="header">
-                        <img className="logo" src={egologo} width="38px"  alt="ego logo"/>
+                        <img className="logo" src={egologo} width="38px"  alt="ego logo" onClick={this.props.switch}/>
                         <div className="brand">
                           <p>Menú</p>
                         </div>
