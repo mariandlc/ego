@@ -1,0 +1,19 @@
+.Models {
+  position: absolute;
+  z-index: 0;
+  top: 400px;
+  left: 120px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 82vw;
+}
+
+@media only screen and (max-width: 568px) {
+  .Models {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+  }
+}

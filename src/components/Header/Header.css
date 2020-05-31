@@ -1,0 +1,107 @@
+
+.header {
+  height: 69px;
+  width: 100%;
+  border-bottom: solid 1px #d8d8d8;
+  top: 0;
+  display: flex;
+}
+
+
+.logo {
+  position: absolute;
+  top: 16px;
+  left: 35px;
+}
+
+@media only screen and (max-width: 1024px) {
+.logo {
+  left: 25px;
+  }
+}
+
+.brand {
+  width: 100%;
+  margin: auto 0px;
+}
+
+.brand p {
+  float: right;
+  right: 62px;
+  position: relative;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #191919;
+}
+
+
+.options {
+  position: relative;
+  max-width: 390px;
+  top: 44px;
+}
+
+.options ul {
+  float: right;
+  padding: 31px 0px 31px 0px;
+  width: 100%;
+}
+
+#set1, #set2, #set3 {
+
+width: 353px;
+margin-right: 20px;
+}
+
+
+#set1, #set2 {
+  border-bottom: solid 1px #d8d8d8;
+}
+
+#set4 li {
+  margin-right: 20px;
+}
+
+
+.options li {
+  padding-right: 33px;
+  padding-left: 17px;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: -0.1px;
+  margin-bottom: 13px;
+
+}
+
+
+.openi {
+  cursor: pointer;
+  width: 28px;
+  height: 20px;
+  object-fit: contain;
+  position: absolute;
+  top: 25px;
+  right: 18px;
+  z-index: 1;
+
+}
+
+.closei {
+  cursor: pointer;
+  object-fit: contain;
+  position: absolute;
+  margin-top: -15px;
+  right: 27px;
+}
+
+
+span {
+  float: right;
+  margin-right: 50px;
+  margin-top: -15px;
+  font-size: 14px;
+}

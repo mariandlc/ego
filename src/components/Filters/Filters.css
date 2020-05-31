@@ -1,0 +1,144 @@
+.Filters {
+  position: relative;
+  top: 195px;
+  z-index: 1;
+}
+
+.FilterBy-options ul {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #d8d8d8;
+  position: relative;
+}
+
+.FilterBy-options-mobile ul {
+  float: left;
+  position: relative;
+  top: -40px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.SortBy-options ul {
+  float: right;
+  position: relative;
+  top: -40px;
+  border-radius: 10px;
+  margin-left: 16px;
+  background-color: white;
+}
+
+li {
+  cursor: pointer;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #373737;
+  transition: color .25s;
+}
+
+.FilterBy-options li  {
+
+margin-bottom: 9px;
+padding: 8px 22.5px 9px 22.5px;
+position: relative;
+}
+
+
+.SortBy-options li {
+
+font-size: 10px;
+line-height: 35px;
+text-align: left;
+padding-left: 10px;
+
+}
+
+.FilterBy-options-mobile li {
+
+font-size: 10px;
+line-height: 35px;
+text-align: left;
+padding-left: 10px;
+
+}
+
+
+
+#FilterBy, #SortBy {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+}
+
+#FilterByMobile {
+  display: inline;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 35px;
+  padding: 0;
+}
+
+#SortBy {
+  cursor: pointer;
+}
+
+#FilterBy {
+  margin-left: -24.5px;
+}
+
+
+.menu {
+  box-shadow: 2px 8px 20px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 170px;
+}
+
+.menu li:not(:last-child) {
+  border-bottom: solid 1px #d8d8d8;
+}
+
+.menu li:last-child {
+  border-radius: 10px;
+}
+
+.menu li:hover {
+  background-color: #f7f7f7
+}
+
+
+.FilterBy-options li.active,
+.FilterBy-options li.active:hover {
+  border-radius: 18px;
+  background-color: #f7f7f7;
+}
+
+.SortBy-options li.active,
+.SortBy-options li.active:hover {
+  background-color: #f7f7f7;
+}
+
+.FilterBy-options-mobile li.active,
+.FilterBy-options-mobile li.active:hover {
+  background-color: #f7f7f7;
+}
+
+
+i {
+  font-weight: bold;
+}
+
+.arrow {
+  margin: 0px;
+  padding-left: 7px;
+}
+
+.arrowFilter {
+  position: absolute;
+  margin: 0px;
+  padding-left: 7px;
+
+}
