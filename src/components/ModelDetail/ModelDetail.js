@@ -63,7 +63,7 @@ class ModelDetail extends React.Component {
         sideSize={0.1}
         slidesToScroll={1}
         slidesToShow={4}
-        scrollOnDevice={false}
+        scrollOnDevice={ false }
         autoCycle={true}
         cycleInterval={4000}
         >
